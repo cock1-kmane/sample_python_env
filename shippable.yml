@@ -27,7 +27,7 @@ script:
   - which python
   - coverage run `which nosetests` test.py --with-xunit --xunit-file=shippable/testresults/nosetests.xml
   - coverage xml -o shippable/codecoverage/coverage.xml
-  - echo "$ZOO"
+ # - echo "$ZOO"
   #- echo "$BAR"
   - echo "$REE"
   - echo "$TEST"
