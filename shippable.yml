@@ -32,7 +32,7 @@ script:
   #- echo "$BAR"
   - echo "$REE"
   - echo "$TEST"
-  - ECHO "$ZOO"
+  - echo "$ZOO"
 
 notifications:
   email:
