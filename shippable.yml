@@ -14,10 +14,10 @@ env:
   - FOO=boo
   - BOO=zoo
   
-matrix:
+#matrix:
   #- ZOO=foo
-  exclude:
-    - python: 3.3
+ # exclude:
+  #  - python: 3.3
    # - python: 3.4
     #- python: pypy3
 
