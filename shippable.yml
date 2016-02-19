@@ -15,8 +15,8 @@ env:
     - FOO=boo
     - BOO=zoo
   
-#matrix:
-  #- ZOO=foo
+matrix:
+  - ZOO=foo
  # exclude:
   #  - python: 3.3
    # - python: 3.4
