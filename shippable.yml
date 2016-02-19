@@ -11,8 +11,9 @@ python:
   - pypy3
   
 env:
-  - FOO=boo
-  - BOO=zoo
+  global:
+    - FOO=boo
+    - BOO=zoo
   
 #matrix:
   #- ZOO=foo
