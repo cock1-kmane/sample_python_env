@@ -39,6 +39,8 @@ script:
   - echo "$TEST"
   - echo "$ZOO"
   - echo "$FEE"
+  
+cache: true
 
 notifications:
   email:
