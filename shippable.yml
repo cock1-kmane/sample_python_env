@@ -42,5 +42,5 @@ script:
 cache: true
 
 notifications:
-  email:
+  email: 
    - shiphitchcock1@gmail.com 
